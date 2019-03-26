@@ -1,0 +1,141 @@
+/*Esther Kim
+03/26/2019
+*/
+@charset "UTF-8";
+
+/*CSS file created by Esther Kim, Spring 2019*/
+
+body 
+{
+    font-family: American Typewriter, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    color: #CCCCCC;
+    background-color: #0B0C10;
+    padding: 0 40px;
+    
+}
+
+/*basic text styles*/
+
+p, li, td
+{
+    letter-spacing: 0.1em;
+    color: #CCCCCC;
+}
+
+h1
+{
+    font-size: 24px;
+    padding: 4px 0;
+    font-variant: small-caps;
+    letter-spacing: .5em;
+    line-height: 2em;
+    background-color: #66FCF1;
+    color: #000000;
+}
+
+h2
+{
+    font-size: 20px;
+    padding: 6px;
+    font-variant: small-caps;
+    letter-spacing: 0.5em;
+    background-color: #66FCF1;
+    color:#000000;
+}
+
+h3
+{
+    font-size: 17px; 
+    letter-spacing: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+    border-bottom-color: #CCCCCC;
+    padding: 4px 0;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+/* link styles*/
+
+a:link 
+{
+    font-weight: bold;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+a:visited
+{
+    font-weight:bold;
+    color:#66FCF1;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#45A29E;
+}
+
+/*list styles*/
+ul li
+{
+    margin-left:10px;
+}
+
+ol
+{
+    margin-left: 12px;
+}
+
+/*table styles*/
+
+table
+{
+    border: solid #CCCCCC 1px;
+}
+
+td
+{
+    padding: 6px;
+    border: solid#1F2833;
+}
+
+th
+{
+    font-weight: bold;
+    background-color: #1F2833;
+    text-align: center;
+    padding: 6px;
+    border: solid#1F2833 1px;
+}
+
+tr
+{
+    color: #CCCCCC;
+}
+
+/*border styles*/
+
+hr
+{
+    border: solid #CCCCCC;
+}
+
+img
+{
+    border: solid #1F2833;
+}
+
+iframe
+{
+    border: solid #CCCCCC;
+    padding:8px;
+    margin: 8px;
+}
+
+a
+{
+    color: #CCCCCC;
+}
